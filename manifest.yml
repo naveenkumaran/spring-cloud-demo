@@ -4,7 +4,7 @@ applications:
   timeout: 180
   name: springclouddemo
   buildpack: java_buildpack
-  path: ./target/target/demo-1.0-SNAPSHOT.jar
+  random-route: true
+  path: ./target/demo-1.0.0-SNAPSHOT.jar
   memory: 1024M
-  domain: not-used.net
-  host: not-used
+  domain: au-syd.cf.appdomain.cloud
